@@ -7,7 +7,6 @@ int main(){
     bool b {false};
     bool c {true};
 
-
     std::cout << std::boolalpha; // true / false
 
 	std::cout << "a : " << a << std::endl;

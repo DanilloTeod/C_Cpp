@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 int main() {
 
     // the const keyword specifies that a variable's value is constant
