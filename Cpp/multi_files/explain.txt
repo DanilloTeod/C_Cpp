@@ -1,0 +1,14 @@
+1. SEUS ARQUIVOS:
+┌─────────────────────────────────────────────────┐
+│  add.h          add.cpp          main.cpp       │
+│  (catálogo)     (implementação)  (uso)          │
+│                 int add(...){    #include "add.h"│
+│  int add(...);    return ...;    add(3,5);      │
+└─────────────────────────────────────────────────┘
+         │               │                │
+         └───────────────┼────────────────┘
+                         ▼
+2. COMPILAÇÃO: g++ main.cpp add.cpp -o programa
+                         │
+                         ▼
+3. EXECUTÁVEL: programa.exe (funciona!)
